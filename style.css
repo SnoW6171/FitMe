@@ -1,0 +1,241 @@
+.cacarousel-item active {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    color: aliceblue;
+
+}
+
+.container .btn {
+    position: absolute;
+    top: 40%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #11acdf;
+    color: rgb(254, 254, 253);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: rgb(10, 218, 59);
+}
+
+#carouselExampleSlidesOnly {
+    width: 1200px;
+    height: 100%;
+    left: 10%;
+    top: 50px;
+
+}
+
+
+.butt:hover {
+    background-color: rgb(10, 218, 59);
+    position: absolute;
+    background-color: #11acdf;
+    cursor: pointer;
+}
+
+.card {
+    top: 85px;
+    position: relative;
+}
+
+.cards {
+    width: 50%;
+    position: relative;
+    left: 350px;
+    top: 110px;
+}
+
+.content-box1 {
+    position: relative;
+    top: 5px;
+    left: 3%;
+}
+
+.content-box {
+    position: relative;
+    top: 60px;
+    left: 3%;
+}
+
+#last {
+    position: relative;
+    top: 50px;
+}
+
+.flogo {
+    position: relative;
+    background-color: rgb(209, 188, 221);
+    top: 150px;
+}
+
+#ftext {
+    left: 150px;
+    position: relative;
+}
+
+#jn {
+    position: relative;
+    left: 5%;
+}
+
+#h5 {
+    left: 10%;
+    top: -10px;
+}
+
+#h4 {
+    left: 5%;
+    top: -15%;
+}
+
+.para {
+    position: relative;
+    top: 100px;
+}
+
+#h {
+    left: 23%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 150px;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-column h3 {
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 10px 0;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter-form button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: left;
+    }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+#heading{
+    left: 25%;
+}
+
+.logo{
+    color: rgb(255, 251, 252);
+}
